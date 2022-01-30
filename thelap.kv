@@ -4,9 +4,17 @@ BoxLayoutExample:
     orientation: "vertical"
     Button:
         text: "A"
-        #size: "100dp", "80dp"
+        size: "10dp", "80dp"
         #pos: "100dp", "200dp"
         color: 0, 0, 1, 100
+        #size_hint: .8, .5
+        size_hint: None, None
+        #height: "60dp"
+        #width: "120dp"
+
+        #x, center_x, right
+        #y, center_y, top
+        pos_hint: {"x": .1}
     Button:
         text: "B"
         #size: "100dp", "80dp"
