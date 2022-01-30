@@ -1,0 +1,26 @@
+### IntelliJ
+*.iml
+.idea
+
+### Maven
+target/
+
+### Eclipse
+.metadata
+.project
+.classpath
+.settings/
+.springBeans
+.factorypath
+
+# NetBeans project files
+nb-configuration*.xml
+nbactions*.xml
+
+styles.scss.cache
+
+bin/
+.class
+.cache-tests
+.openapi-generator
+.swagger-codegen
